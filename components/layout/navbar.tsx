@@ -2,7 +2,6 @@
 
 import * as React from "react"
 import Link from "next/link"
-import { ThemeToggle } from "@/components/ui/theme-toggle"
 import { Menu, X } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 
@@ -24,7 +23,7 @@ export function Navbar() {
                     href="/"
                     className="text-lg font-bold tracking-tight text-zinc-900 dark:text-zinc-50"
                 >
-                    AHrafsan <span className="text-indigo-500">Portfolio</span>
+                    Abu Hasan <span className="text-indigo-500">Portfolio</span>
                 </Link>
 
                 {/* Desktop Nav */}
@@ -38,12 +37,10 @@ export function Navbar() {
                             {link.name}
                         </Link>
                     ))}
-                    <ThemeToggle />
                 </div>
 
                 {/* Mobile Menu Toggle */}
                 <div className="flex items-center gap-4 md:hidden">
-                    <ThemeToggle />
                     <button
                         onClick={() => setIsOpen(!isOpen)}
                         className="inline-flex items-center justify-center p-2 rounded-md text-zinc-700 hover:bg-zinc-100 dark:text-zinc-200 dark:hover:bg-zinc-800"
