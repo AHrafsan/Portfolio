@@ -23,7 +23,7 @@ export function Navbar() {
                     href="/"
                     className="text-lg font-bold tracking-tight text-zinc-900 dark:text-zinc-50"
                 >
-                    Abu Hasan <span className="text-indigo-500">Portfolio</span>
+                    Abu Hasan's <span className="text-indigo-500">Portfolio</span>
                 </Link>
 
                 {/* Desktop Nav */}

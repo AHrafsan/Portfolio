@@ -34,11 +34,11 @@ export function Contact() {
                         Have a project in mind or just want to say hi? Feel free to send me a message.
                     </p>
                     <div className="flex gap-4 pt-4">
-                        <Link href="https://github.com" target="_blank" className="text-zinc-500 hover:text-indigo-500 dark:text-zinc-400 dark:hover:text-indigo-400">
+                        <Link href="https://github.com/AHrafsan" target="_blank" className="text-zinc-500 hover:text-indigo-500 dark:text-zinc-400 dark:hover:text-indigo-400">
                             <Github className="h-6 w-6" />
                             <span className="sr-only">GitHub</span>
                         </Link>
-                        <Link href="https://linkedin.com" target="_blank" className="text-zinc-500 hover:text-indigo-500 dark:text-zinc-400 dark:hover:text-indigo-400">
+                        <Link href="https://www.linkedin.com/in/md-abu-hasan-57a154294/" target="_blank" className="text-zinc-500 hover:text-indigo-500 dark:text-zinc-400 dark:hover:text-indigo-400">
                             <Linkedin className="h-6 w-6" />
                             <span className="sr-only">LinkedIn</span>
                         </Link>
@@ -74,7 +74,7 @@ export function Contact() {
                                     id="name"
                                     required
                                     className="flex h-10 w-full rounded-md border border-zinc-200 bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 dark:border-zinc-800 dark:bg-zinc-900/50"
-                                    placeholder="John Doe"
+                                    placeholder="Your Name"
                                 />
                             </div>
                             <div className="space-y-2">
@@ -86,7 +86,7 @@ export function Contact() {
                                     type="email"
                                     required
                                     className="flex h-10 w-full rounded-md border border-zinc-200 bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 dark:border-zinc-800 dark:bg-zinc-900/50"
-                                    placeholder="john@example.com"
+                                    placeholder="youremail@example.com"
                                 />
                             </div>
                             <div className="space-y-2">

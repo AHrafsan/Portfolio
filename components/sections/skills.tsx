@@ -2,10 +2,6 @@
 
 import { motion } from "framer-motion"
 import { Badge } from "lucide-react"
-// Note: We might want a custom Badge component or just styled divs.
-// I'll use styled divs for badges to avoid dependency on a specific UI library's Badge if not strictly needed, 
-// but since I have 'components/ui' I could make one. 
-// For now, I'll just style them directly or use a simple functional component here.
 
 const skills = {
     "WordPress Development": [
